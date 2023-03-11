@@ -42,13 +42,6 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.content {
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 100px 15%;
 }
 
@@ -56,15 +49,15 @@ ul {
     width: 400px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     gap: 8px;
+    text-align: left;
+    margin-right: 50px;
 }
 
 .main-text {
     font-size: 48px;
     font-weight: 600;
     color: #f9faf8;
-    text-align: left;
 }
 
 .secondary-text {
@@ -78,6 +71,7 @@ ul {
     border-radius: 8px;
     color: white;
     padding: 8px 20px;
+    align-self: flex-start;
 }
 
 .image {
@@ -90,10 +84,8 @@ ul {
 }
 
 .info {
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 0 15%;
+    margin-bottom: 30px;
 }
 
 .info .title {
@@ -105,6 +97,8 @@ ul {
 
 .illustrations {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
 }
 
@@ -121,7 +115,7 @@ ul {
 }
 
 .illustration {
-    margin: 0 30px;
+    margin: 8px 30px;
     width: 100px;
     display: flex;
     flex-direction: column;
@@ -133,20 +127,16 @@ ul {
     background-color: #e5e7eb;
     flex: 1;
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.quote-content {
-    display: flex;
     flex-direction: column;
-    width: 400px;
+    justify-content: center;
+    padding: 0 15%;
 }
 
 .quote-text {
     font-size: 36px;
     font-weight: 200;
     color: #1f2937;
+    text-align: left;
 }
 
 .quote-name {
