@@ -3,25 +3,19 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    min-height: 100vh;
     text-align: center;
     flex-direction: column;
 }
 
-.hero {
+.header {
     background-color: #1f2937;
     color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 15%;
-}
-
-.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 24px;
-    padding: 10px 0;
+    padding: 10px 15%;
 }   
 
 .logo a{
@@ -43,15 +37,23 @@ ul {
     padding: 0;
 }
 
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .content {
+    color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 100px 0;
+    padding: 100px 15%;
 }
 
 .hero-content {
-    width: 500px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -88,40 +90,48 @@ ul {
 }
 
 .info {
+    height: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    height: 300px;
 }
 
 .info .title {
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 600;
     color: #1f2937;
+    padding: 30px 0;
 }
 
 .illustrations {
     display: flex;
+    align-items: center;
 }
 
 .img-space {
-    width: 40px;
-    height: 40px;
+    width: 120px;
+    height: 120px;
     border: blue 2px solid;
-    border-radius: 4px;
+    border-radius: 10px;
+}
+
+.img-info {
+    font-size: 14px;
+    font-weight: 300;
 }
 
 .illustration {
-    margin: 10px;
+    margin: 0 30px;
+    width: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 8px;
 }
 
 .quote {
     background-color: #e5e7eb;
-    height: 300px;
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,7 +156,7 @@ ul {
 }
 
 .action {
-    height: 300px;
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,6 +170,12 @@ ul {
     display: flex;
     justify-content: space-between;
     padding: 40px 80px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
 }
 
 .action-content .main-text {
@@ -181,4 +197,6 @@ ul {
 .footer {
     background-color: #1f2937;
     color: white;
+    height: 24px;
+    padding: 10px;
 }
