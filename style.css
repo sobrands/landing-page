@@ -14,18 +14,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 24px;
+    height: 40px;
     padding: 10px 15%;
-}   
+}
 
-.logo a{
+.header .title {
     font-size: 24px;
-    color: #f9faf8;
+    font-weight: bold;
 }
 
 a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
     color: #e5e7eb;
 }
 
@@ -74,15 +74,6 @@ ul {
     align-self: flex-start;
 }
 
-.image {
-    background-color: grey;
-    width: 500px;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .info {
     padding: 0 15%;
     margin-bottom: 30px;
@@ -92,7 +83,7 @@ ul {
     font-size: 24px;
     font-weight: 600;
     color: #1f2937;
-    padding: 30px 0;
+    padding-top: 30px;
 }
 
 .illustrations {
@@ -102,21 +93,18 @@ ul {
     align-items: center;
 }
 
-.img-space {
-    width: 120px;
-    height: 120px;
-    border: blue 2px solid;
-    border-radius: 10px;
+.img-space img {
+    max-width:  150px;
 }
 
 .img-info {
+    padding-right: 20px;
     font-size: 14px;
     font-weight: 300;
 }
 
 .illustration {
-    margin: 8px 30px;
-    width: 100px;
+    margin: 8px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -136,7 +124,7 @@ ul {
     font-size: 36px;
     font-weight: 200;
     color: #1f2937;
-    text-align: left;
+    text-align: center;
 }
 
 .quote-name {
